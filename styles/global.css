@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url(https://db.onlinewebfonts.com/c/073a3b73a63a87e100f6bb8f003fc0d3?family=Flexo+Light);
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
+  background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+  font-family: "Flexo Light", sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  height: 100%;
 }
 
 * {
@@ -21,7 +23,7 @@ a:hover {
   text-decoration: underline;
 }
 
-img {
+/* img {
   max-width: 100%;
   display: block;
-}
+} */

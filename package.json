@@ -9,9 +9,15 @@
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
     "next": "latest",
+    "pokenode-ts": "^1.14.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "remark": "^14.0.1",
     "remark-html": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "typescript": "^4.7.4"
   }
 }

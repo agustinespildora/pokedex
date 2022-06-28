@@ -1,7 +1,9 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  max-width: 54rem;
+  /* width: 900px; */
+  background-color: #fff;
+  /* padding: 0 1rem; */
+  margin: 0rem auto 3rem;
 }
 
 .header {
@@ -10,6 +12,11 @@
   align-items: center;
 }
 
-.backToHome {
-  margin: 3rem 0 0;
+.secondBackground{
+  background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+  max-width: 72rem;
+  margin: 0rem auto 3rem;
 }
+/* .backToHome {
+  margin: 3rem 0 0;
+} */
