@@ -3,7 +3,7 @@ import Layout, { TITLE } from '../components/layout'
 import { GetStaticProps } from 'next'
 import { Pokemon } from 'pokenode-ts';
 import { getPokemons } from '../lib/pokemons';
-import PokemonIndex from './pokemons';
+import PokemonIndex from '../components/pokemons';
 
 const PAGE_SIZE :number = 12;
 const INITIAL_OFFSET :number = 0;

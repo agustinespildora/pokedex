@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Pokemon } from 'pokenode-ts';
 import { Dispatch, SetStateAction } from 'react';
-import utilStyles from '../../styles/utils.module.css'
-import { getPokemons } from '../../lib/pokemons';
+import utilStyles from '../styles/utils.module.css'
+import { getPokemons } from '../lib/pokemons';
 
 
 
