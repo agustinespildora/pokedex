@@ -4,8 +4,25 @@
 }
 
 .center {
-  /* display: flex; */
   text-align: center;
+}
+
+.container {
+  max-width: 54rem;
+  background-color: #fff;
+  margin: 0rem auto 3rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondBackground{
+  background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+  max-width: 72rem;
+  margin: 0rem auto 3rem;
 }
 
 .borderCircle {
@@ -62,7 +79,7 @@
 .button {
   background-color: #30a7d7;
   width: 200px;
-  height: 50px;
+  height: 40px;
   color: white;
   border-radius: 5px;
   font-size: 18px;
@@ -71,6 +88,6 @@
 }
 
 .button:hover {
-  background-color: #2686ac; /* Green */
+  background-color: #2686ac;
   color: white;
 }
