@@ -3,7 +3,7 @@
 html,
 body {
   background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
-  font-family: "Flexo Light", sans-serif;
+  font-family: "flexodemi", sans-serif;
   font-size: 16px;
   color: rgb(0, 0, 0);
   height: 100%;
@@ -11,7 +11,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: "Flexo Light", sans-serif;
+  font-family: "flexodemi", sans-serif;
 }
 
 a {

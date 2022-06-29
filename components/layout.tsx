@@ -21,15 +21,10 @@ export default function Layout({
           />
           <meta
             property="og:image"
-            content={`https://assets.pokemon.com/static2/_ui/img/favicon.ico`}
+            content={`http://assets.pokemon.com/static2/_ui/img/favicon.ico`}
           />
           <meta name="og:title" content={TITLE} />
           <meta name="twitter:card" content="summary_large_image" />
-          <link rel="preconnect" href="https://db.onlinewebfonts.com" />
-          <link
-            href="https://db.onlinewebfonts.com/c/073a3b73a63a87e100f6bb8f003fc0d3?family=Flexo+Light"
-            rel="stylesheet"
-          />
         </Head>
         <header className={utilStyles.header}>
           <Image
