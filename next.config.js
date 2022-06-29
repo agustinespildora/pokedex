@@ -1,4 +1,5 @@
 module.exports = {
+  optimizeFonts: false,
   images: {
     domains: [
       "assets.example.com",
