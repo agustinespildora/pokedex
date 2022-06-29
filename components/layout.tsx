@@ -25,6 +25,7 @@ export default function Layout({
           />
           <meta name="og:title" content={TITLE} />
           <meta name="twitter:card" content="summary_large_image" />
+          <link rel="preconnect" href="https://db.onlinewebfonts.com" />
           <link
             href="https://db.onlinewebfonts.com/c/073a3b73a63a87e100f6bb8f003fc0d3?family=Flexo+Light"
             rel="stylesheet"
